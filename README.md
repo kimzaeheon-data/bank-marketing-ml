@@ -13,9 +13,18 @@ UCI Bank Marketing Dataset
 ## Evaluation Metric
 F1 Score
 
-## Result
-Best Model : XGBoost
-F1 Score : 0.69
+## Baseline Model Result
+
+The baseline model showed high accuracy but poor recall for the positive class due to class imbalance.
+
+Accuracy : 0.89
+
+Class 1 (Subscriber)
+Precision : 0.68  
+Recall : 0.21  
+F1 Score : 0.32
+
+This indicates the model failed to correctly identify many potential subscribers.
 
 ## Tech Stack
 
