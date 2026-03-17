@@ -41,6 +41,15 @@ Recall : 0.54
 
 Lowering the threshold significantly improved the model's ability to identify potential subscribers.
 
+## Model Comparison
+
+| Model | Precision | Recall | F1 Score |
+|------|------|------|------|
+| Logistic Regression | 0.68 | 0.21 | 0.32 |
+| Random Forest | 0.58 | 0.30 | 0.40 |
+| XGBoost (baseline) | 0.66 | 0.27 | 0.39 |
+| XGBoost (threshold=0.25) | 0.50 | 0.54 | 0.52 |
+
 ## Tech Stack
 
 - Python
