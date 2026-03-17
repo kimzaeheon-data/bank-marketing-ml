@@ -16,3 +16,11 @@ F1 Score
 ## Result
 Best Model : XGBoost
 F1 Score : 0.69
+
+## Tech Stack
+
+- Python
+- Pandas
+- Scikit-learn
+- XGBoost
+- Matplotlib
