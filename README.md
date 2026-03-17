@@ -26,6 +26,21 @@ F1 Score : 0.32
 
 This indicates the model failed to correctly identify many potential subscribers.
 
+## Threshold Tuning
+
+To improve recall for the subscriber class, the classification threshold was adjusted.
+
+Baseline threshold : 0.5
+
+After testing multiple thresholds, the optimal threshold was found to be **0.25**.
+
+Result:
+
+Precision : 0.50  
+Recall : 0.54  
+
+Lowering the threshold significantly improved the model's ability to identify potential subscribers.
+
 ## Tech Stack
 
 - Python
