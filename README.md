@@ -24,3 +24,10 @@ F1 Score : 0.69
 - Scikit-learn
 - XGBoost
 - Matplotlib
+  
+## Project Structure
+
+bank-marketing-ml
+│
+├── README.md
+└── bank_marketing_prediction.ipynb
